@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="bootstrap4/css/bootstrap.css">
     <link rel="stylesheet" href="fa/css/all.css">
     <script src="js/jquery.js"></script>
+    <script src="bootstrap4/js/bootstrap.js"></script>
     <script src="js/script.js"></script>
 </head>
 <body>

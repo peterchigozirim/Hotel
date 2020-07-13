@@ -1,4 +1,4 @@
-<header class="container-fluid bg-light text-light sticky-top">
+<header class="container-fluid bg-light text-light sticky-top" >
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -6,11 +6,11 @@
                     <a href="index.php" class="navbar-brand text-secondary">
                         <strong>Hotel.Ng</strong>
                     </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
                             <span class="fa fa-bars text-dark"></span>
                         </button>
 
-                    <div class="collapse navbar-collapse" id="#collapsibleNavbar">
+                    <div class="collapse navbar-collapse" id="navbar1">
                         <ul class="navbar-nav  ml-auto">
                             <li class="nav-item">
                                 <a href="index.php" class="nav-link text-secondary">

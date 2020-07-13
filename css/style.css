@@ -2,17 +2,41 @@
     margin: 0;
     padding: 0;
 }
-
 a{
-    text-align: none;
+    text-decoration: none;
+}
+#low_nav{
+    margin-top:-30px;
 }
 
-/* .nav-link{
-    color: #000000;
-    font-weight: bold;
-} */
+.rate_room .img img{
+    max-width: 100%;
+    -moz-transition: all .5s ease;
+    vertical-align: middle;
+}
+.rate_room:hover img{
+    transform: scale(1.1);
+}
+.rate_room .text{
+    position: absolute;
+    background-color: #000000b3;
+    padding: 10px 10px;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+}
 
-#low_nav{
-    text-align: center;
-    margin: -17px 0 0;
+
+
+
+/* mobile query */
+
+@media screen and (max-width:760px) {
+    #low_nav{
+        margin-top: 20px;
+        text-align: center;
+    }
+    #low_nav .col-md-4{
+        margin: 10px 0;
+    }
 }
